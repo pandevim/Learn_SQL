@@ -12,9 +12,10 @@ Full Form - Standardized Query Language. Much oftern pronounced as "Sequel".
 
 **Definition and uses:**
 In simple words, SQL is the language of DATA. When I say data, I refer to the instructions and information regarding any of the stuff that's aroud you and your skull.
-> Oracle
-> Sybase
-> Microsoft SQL Server, Access, Ingres, etc. Most database systems use SQL. 
+
+>Oracle
+>Sybase
+>Microsoft SQL Server, Access, Ingres, etc. Most database systems use SQL. 
 
 
 
