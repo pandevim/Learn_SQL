@@ -26,3 +26,12 @@ FROM Customers;
    the above query create only distinct result table.
    only the cities which have a distinct name in the field 'City' will be displayed.
 */
+
+SELECT COUNT
+	(DISTINCT Country)
+FROM Customers;
+
+/* 
+   the above query will return a number.
+   the number of distinct countries in the database.
+*/
