@@ -3,4 +3,14 @@
    These tables are made up of 'fields'.
 */
 
-SELECT * FROM Customers --This SQL statement selects all the records from the table name 'Customers'.
+SELECT * FROM Customers; --This SQL statement selects all the records from the table name 'Customers'.
+
+/* 
+   Here 'SELECT' is use to select data from a database.
+   Above we've selected the whole table but we can some sepecific fields from the tabel!
+   Like this below.
+*/
+
+SELECT CustomerName,
+       City
+FROM Customers;
