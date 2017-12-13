@@ -3,7 +3,9 @@
    These tables are made up of 'fields'.
 */
 
-SELECT * FROM Customers; --This SQL statement selects all the records from the table name 'Customers'.
+SELECT
+   *
+FROM Customers; --This SQL statement selects all the records from the table name 'Customers'.
 
 /* 
    Here 'SELECT' is use to select data from a database.
@@ -11,6 +13,16 @@ SELECT * FROM Customers; --This SQL statement selects all the records from the t
    Like this below.
 */
 
-SELECT CustomerName,
-       City
+SELECT
+   CustomerName,
+   City
 FROM Customers;
+
+SELECT DISTINCT
+    City
+FROM Customers;
+
+/* 
+   the above query create only distinct result table.
+   only the cities which have a distinct name in the field 'City' will be displayed.
+*/
