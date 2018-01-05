@@ -1,14 +1,14 @@
 /* 
-   All queries are done on the database objects called 'tables'.
-   These tables are made up of 'fields'.
+   All queries are done on the database objects called "tables".
+   These tables are made up of "fields".
 */
 
 SELECT
    *
-FROM Customers; --This SQL statement selects all the records from the table name 'Customers'.
+FROM Customers; --This SQL statement selects all the records from the table name "Customers".
 
 /* 
-   Here 'SELECT' is use to select data from a database.
+   Here "SELECT" is use to select data from a database.
    Above we've selected the whole table but we can some sepecific fields from the tabel!
    Like this below.
 */
@@ -24,7 +24,7 @@ FROM Customers;
 
 /* 
    the above query create only distinct result table.
-   only the cities which have a distinct name in the field 'City' will be displayed.
+   only the cities which have a distinct name in the field "City" will be displayed.
 */
 
 SELECT COUNT
