@@ -8,7 +8,7 @@ WHERE Country='Mexico';
 */
 
 /* 
-   Operators can also be used with "WHERE" clause like this in below.
+   All operators can be used with "WHERE" clause like this in below.
 */
 
 SELECT
