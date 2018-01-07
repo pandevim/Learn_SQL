@@ -67,3 +67,15 @@ WHERE Country LIKE '%g%';
 /* 
    The above query will find "g" anywhere in column "Country".
 */
+
+-----------------------------------------------------------------------------
+
+/* 
+   You can also combine any number of conditions using AND or OR operators.
+*/
+
+SELECT
+   *
+FROM Customers
+WHERE Country LIKE 'c%' OR Country LIKE 'a%' OR Country LIKE 't%';
+
