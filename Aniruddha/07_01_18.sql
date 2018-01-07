@@ -38,7 +38,7 @@ FROM Customers
 WHERE Country LIKE 'g_%_%';
 
 /* 
-   The above query will find any value that start with g and have atleast 3 charater in total.
+   The above query will find any value that start with g and have atleast 3 charater.
 */
 
 SELECT
@@ -56,5 +56,5 @@ FROM Customers
 WHERE Country LIKE 'g_____y';
 
 /* 
-   The above query will find any value that start with g and have atleast 7 charater in total.
+   The above query will find any value that start with g and have exatly 7 charater in total.
 */
