@@ -71,11 +71,29 @@ WHERE Country LIKE '%g%';
 -----------------------------------------------------------------------------
 
 /* 
-   You can also combine any number of conditions using AND or OR operators.
+   You can also combine any number of conditions using AND or OR operators!
 */
 
 SELECT
    *
 FROM Customers
 WHERE Country LIKE 'c%' OR Country LIKE 'a%' OR Country LIKE 't%';
+
+/* 
+   The above query will find all value that start with c along with a and with t, all at the same time.
+   but this line of query is quiet tedious to write so we often use [].
+   like this query below!
+*/
+
+SELECT
+   *
+FROM Customers
+WHERE Country LIKE '[cat]';
+
+/* 
+   Remember there is no , or _ in between.
+   And thus this will perform the same way as the latter.
+*/
+
+-----------------------------------------------------------------------------
 
