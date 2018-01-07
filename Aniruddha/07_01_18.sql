@@ -58,3 +58,12 @@ WHERE Country LIKE 'g_____y';
 /* 
    The above query will find any value that start with g and have exatly 7 charater in total.
 */
+
+SELECT
+   *
+FROM Customers
+WHERE Country LIKE '%g%';
+
+/* 
+   The above query will find "g" anywhere in column "Country".
+*/
