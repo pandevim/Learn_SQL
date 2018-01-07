@@ -88,7 +88,7 @@ WHERE Country LIKE 'c%' OR Country LIKE 'a%' OR Country LIKE 't%';
 SELECT
    *
 FROM Customers
-WHERE Country LIKE '[cat]';
+WHERE Country LIKE '[cat]%';
 
 /* 
    Remember there is no , or _ in between.
