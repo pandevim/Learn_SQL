@@ -97,3 +97,11 @@ WHERE Country LIKE '[cat]%';
 
 -----------------------------------------------------------------------------
 
+SELECT
+   *
+FROM Customers
+WHERE Country LIKE '[c-t]%';
+
+/* 
+   The above query will give the "Countries" whose name start with "c" to all the way "t".
+*/
