@@ -31,3 +31,9 @@ WHERE Country LIKE '_g%';
 /* 
    The above query will find any value whose second charater starts with G.
 */
+
+SELECT
+   *
+FROM Customers
+WHERE Country LIKE 'g_%_%';
+      
