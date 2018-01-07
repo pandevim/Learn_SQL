@@ -103,5 +103,25 @@ FROM Customers
 WHERE Country LIKE '[c-t]%';
 
 /* 
-   The above query will give the "Countries" whose name start with "c" to all the way "t".
+   The above query will give the "Countries" whose name start with "c" all the way "t".
 */
+
+/* 
+   The "!" operator can be repalce with using "NOT" query before "LIKE".
+   like this one below.
+*/
+
+SELECT
+   *
+FROM Customers
+WHERE Country NOT LIKE '[cat]%';
+
+/* 
+   The above query where the output will give all countries other than those who start with "c","a" or "t".
+   we can also use ! operator like this below.
+*/
+
+SELECT
+   *
+FROM Customers
+WHERE Country LIKE '[!cat]%';
