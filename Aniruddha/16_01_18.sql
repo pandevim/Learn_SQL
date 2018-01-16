@@ -4,7 +4,7 @@
 */
 
 SELECT
-	*
+   *
 FROM Customers
 WHERE PostalCode=3012 OR PostalCode=8010 OR PostalCode=1081;
 
@@ -15,7 +15,7 @@ WHERE PostalCode=3012 OR PostalCode=8010 OR PostalCode=1081;
 */
 
 SELECT
-	*
+   *
 FROM Customers
 WHERE PostalCode IN (3012,8010,1081);
 
@@ -25,7 +25,7 @@ WHERE PostalCode IN (3012,8010,1081);
 */
 
 SELECT
-	PostalCode
+   *
 FROM Customers
 WHERE PostalCode IN (3012,8010,1081);
 
@@ -35,7 +35,7 @@ WHERE PostalCode IN (3012,8010,1081);
 */
 
 SELECT
-	*
+   *
 FROM Customers
 WHERE PostalCode
 IN (SELECT
