@@ -18,3 +18,27 @@ SELECT
 	*
 FROM Customers
 WHERE PostalCode IN (3012,8010,1081);
+
+/* 
+   We can also advance this by using "SubQuery Substitution" which will give the same result as above.
+   The below query will only give the PostalCode Column.
+*/
+
+SELECT
+	PostalCode
+FROM Customers
+WHERE PostalCode IN (3012,8010,1081);
+
+/* 
+   Substituting this as a SubQuery in the one query above will give the same result!
+   Like this below.
+*/
+
+SELECT
+	*
+FROM Customers
+WHERE PostalCode
+IN (SELECT
+	PostalCode
+FROM Customers
+WHERE PostalCode IN (3012,8010,1081));
