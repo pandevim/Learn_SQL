@@ -4,17 +4,17 @@
 */
 
 SELECT
-   *
+	*
 FROM Customers
-WHERE Country='Germany' OR Country='France' OR Country='UK';
+WHERE PostalCode=3012 OR PostalCode=8010 OR PostalCode=1081;
 
 /* 
-   The above query will give the table with only countries germany, france and  uk.
+   The above query will give the table with only the specified postal code.
    But this same result can be obtained by using "IN" filter.
    Like this below.
 */
 
 SELECT
-   *
+	*
 FROM Customers
-WHERE Country IN ('Germany','France','UK');
+WHERE PostalCode IN (3012,8010,1081);
