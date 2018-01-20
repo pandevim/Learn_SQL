@@ -21,3 +21,11 @@ SELECT
    *
 FROM Products
 WHERE Price BETWEEN 10 AND 20 AND NOT CategoryID IN (1,2,3);
+
+/* 
+   "WHERE" clause can also be used to sort alphabets.
+   Along with "ORDER BY" clause explained earlier.
+*/
+
+
+
