@@ -16,5 +16,10 @@ DELETE FROM Customers
 WHERE CustomerID=92;
 
 /* 
-   The above query will delete that extra created row in onec.
+   The above query will delete that extra created row.
+   To delete all the record in once we can use the below method.
 */
+
+DELETE
+   *
+FROM Customers;
