@@ -28,3 +28,19 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
    by the use of "SELECT" clause.
    Like shown below.
 */
+
+INSERT INTO first_table
+SELECT
+   *
+FROM second_table;
+
+/* 
+   Here data from "second_table" will be copied
+   and inserted into "first_table".
+   We can also specify the columns like this query below.
+*/
+
+INSERT INTO first_table(names_of_columns1)
+SELECT
+   names_of_columns2
+FROM second_table;
