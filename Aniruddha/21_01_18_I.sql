@@ -49,4 +49,5 @@ FROM second_table;
 
 /* 
    Here brackets for variable a,b,c and x,y,z are not applicable in the real query.
+   "WHERE" clause can also be used along with this query.
 */
