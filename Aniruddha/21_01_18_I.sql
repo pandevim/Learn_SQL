@@ -23,3 +23,8 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
    automaticaly as new rows inserted.
 */
 
+/* 
+   We can populate a table using another table
+   by the use of "SELECT" clause.
+   Like shown below.
+*/
