@@ -21,6 +21,8 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
    In all of the above queries we didn't mendtion CustomerID
    as it is a "auto-increment" field and will generate
    automaticaly as new rows inserted.
+   If some row is inserted and the value for that column is not mentioned
+   then the section will be marked as "NULL".
 */
 
 /* 
