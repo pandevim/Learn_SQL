@@ -17,4 +17,9 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 
 /* 
    Both above query will make a new row at the end by default.
+   Where the columns can be specified as needed.
+   In all of the above queries we didn't mendtion CustomerID
+   as it is a "auto-increment" field and will generate
+   automaticaly as new rows inserted.
 */
+
