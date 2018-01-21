@@ -40,7 +40,13 @@ FROM second_table;
    We can also specify the columns like this query below.
 */
 
-INSERT INTO first_table(names_of_columns1)
+INSERT INTO first_table(names_of_columns(a),names_of_columns(b),names_of_columns(c))
 SELECT
-   names_of_columns2
+   names_of_columns(X),
+   names_of_columns(y),
+   names_of_columns(z)
 FROM second_table;
+
+/* 
+   Here brackets for variable a,b,c and x,y,z are not applicable in the real query.
+*/
