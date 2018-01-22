@@ -18,4 +18,6 @@ FROM Customers;
    aliase contain spaces.
 */
 
-
+SELECT
+   CustomerName AS Name,City+', '+Country AS Address
+FROM Customers;
