@@ -9,6 +9,7 @@ WHERE Country='Mexico';
 
 /* 
    All operators can be used with "WHERE" clause like this in below.
+   Along with operators like "OR"(inclusion) and "AND"(conjunction).
 */
 
 SELECT
