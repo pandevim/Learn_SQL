@@ -7,11 +7,15 @@
 */
 
 SELECT
-   CustomerID as Id,CustomerName AS Name
+   CustomerID as show_ID,CustomerName AS [show Name]
 FROM Customers;
 
 /* 
    This query is for column aliases which will return
-   two column with title "Id" and "Name" aliases with
+   two column with title "show_ID" and "show Name" aliases with
    "CustomerID" and "CustomerName" respectively.
+   Bracket or double quotation marks are required with the 
+   aliase contain spaces.
 */
+
+
