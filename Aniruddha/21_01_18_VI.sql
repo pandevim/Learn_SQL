@@ -39,7 +39,7 @@ FROM Customers, Orders
 WHERE Customers.CustomerName="Around the Horn" AND Customers.CustomerID=Orders.CustomerID;
 
 /* 
-   The above query will give 3 columns OrderID, OrderDate and CustomerName
+   The above query will give 3 columns "OrderID", "OrderDate" and "CustomerName"
    from table "Customers" and "Orders" respectively.
    But we can use aliases to efficiently implement the above query.
    Like shown below.
