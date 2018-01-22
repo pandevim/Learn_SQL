@@ -27,4 +27,7 @@ FROM Customers;
    "Name" and "Address" whicha are combined from 
    "City" and "Country" further aliases with "Address".
    "||" is a operator used for concatenation.
+   Tables can also be manipulate with aliases though
+   they are mainly used in "JOIN" opetations of tables.
 */
+
