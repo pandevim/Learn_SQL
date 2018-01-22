@@ -21,3 +21,9 @@ FROM Customers;
 SELECT
    CustomerName AS Name,City+', '+Country AS Address
 FROM Customers;
+
+/* 
+   The above query will give two colums title
+   "Name" and "Address" whicha are combined from 
+   "City" and "Country" further aliases with "Address".
+*/
