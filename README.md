@@ -1,8 +1,8 @@
 # Learn SQL
 This is a repository for anyone who wants to learn SQL.<br/>
 It's an effort by Yash and Aniruddha to understand and learn "SQL".<br/>
-![alt text](https://my.sentryone.com/Images/logos/products/sql.svg)<br/>
 You can use all the queries laid down in this tutorial in the <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all">SQL Tryit Editor</a> by <b>W3Schools</b>.<br/><br/>
+![alt text](https://my.sentryone.com/Images/logos/products/sql.svg)<br/>
 We're using the Northwind sample database provided by https://www.w3schools.com/<br/>
 You can also practice on Oracle's Offical website dedicated entirely to SQL from
 <a href="http://www.oracle.com/technetwork/database/application-development/livesql/livesql-2715848.html">Live SQL</a><br/>
