@@ -49,6 +49,24 @@ Reference: https://www.w3schools.com/sql/
 
 Databases consists of many tables, columns, headings, differentl located lists. (Don't worry they're easy)
 
+SQL is a ANSI standard
+SQL can:
+>Execute Quereies
+>Retrieve Data
+>Insert Records
+>Update records
+>Delete records
+>Create new database
+>Create new and stored procedures
+>Create views
+>Set permissions on table, procedures and views
+
+Different Databases have different self obsessed commands. But still SELECT, UPDATE, DELETE, INSERT, WHERE and FROM are some common and widely accepted commmands.
+Html and SQL work hand in hand. For server side scripting and get the data + styles from CSS and JSes.
+
+What is a Table?
+> A table has smaller partitions called fields. It is a column in the table. 
+> Further the horizontal ones are called records or rows. 
 
 
 
