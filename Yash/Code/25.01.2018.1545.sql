@@ -1,6 +1,6 @@
 The SELECT statement
 SELECT*FROM
-SELECT CutomerID, City FROM Customers; /*This is to select the column from a table. Output: The colums of CustomerID and Customers*/
+SELECT CustomerID, City FROM Customers; /*This is to select the column from a table. Output: The colums of CustomerID and Customers*/
 
 The SELECT DISTINCT statement
 SELECT DISTINCT Country FROM Customers; /*In the database there are 91 enteries. Outuput This will tell the distinct countries i.e. list of 21 Countries*/
