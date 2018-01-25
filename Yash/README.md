@@ -17,7 +17,7 @@ In simple words, SQL is the language of DATA. When I say data, I refer to the in
 >Sybase
 >Microsoft SQL Server, Access, Ingres, etc. Most database systems use SQL. 
 
-# Standardized QUery Language
+# Standardized Query Language
 
 Used to create, delete, append, edit, modify; or in simple words to Manage Data!
 
