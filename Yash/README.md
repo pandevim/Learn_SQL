@@ -4,7 +4,7 @@ Before I start let me make myself clear that I'm using information from many dif
 Majorly I'm contrubuting via w3schools.com
 
 Let's get started.
- ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/download.png)<br/>
+ ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Resources/download.png)<br/>
  
  
 **SQL**
