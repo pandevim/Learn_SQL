@@ -1,4 +1,4 @@
-Pre-n-formation: Hi I'm Yash Pathack and this an effort me and my buddy Aniruddha(The gitter on whose repository you're on currently) to learn SQL in a competitive manner.
+Pre-n-formation: Hi I'm Yash Pathack and this an effort by me and my buddy Aniruddha(The gitter on whose repository you're on currently) to learn SQL in a competitive manner.
 Let's hope everything goes as per schedule.
 Before I start let me make myself clear that I'm using information from many different sources.
 Majorly I'm contrubuting via w3schools.com
