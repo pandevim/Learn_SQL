@@ -3,8 +3,6 @@ Let's hope everything goes as per schedule.
 Before I start let me make myself clear that I'm using information from many different sources.
 Majorly I'm contrubuting via w3schools.com
 
-![picture](download.png)
-
 Let's get started.
  download.png
  
