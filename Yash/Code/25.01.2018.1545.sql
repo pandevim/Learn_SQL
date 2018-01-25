@@ -15,15 +15,15 @@ WHERE Country='Mexico'; /*Output: This displays the records of all the data whic
 
 /* We have operators in WHERE statement. 
 
-=	Equal
-<> 	Not equal. In some versions of SQL this operator may be written as !=
->	  Greater than
-<	  Less than
->=	Greater than or equal
-<=	Less than or equal
-BETWEEN	Between an inclusive range
-LIKE	  Search for a pattern
-IN	    To specify multiple possible values for a column */
+=	        Equal
+<>        Not equal. In some versions of SQL this operator may be written as !=
+>	        Greater than
+<	        Less than
+>=	      Greater than or equal
+<=	      Less than or equal
+IN	      To specify multiple possible values for a column
+LIKE	    Search for a pattern
+BETWEEN	  Between an inclusive range */
 
 
 
