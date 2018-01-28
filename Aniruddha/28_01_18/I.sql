@@ -6,3 +6,7 @@
 SELECT
    *
 FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+
+/* 
+   "INNER JOIN" return record common to both table.
+*/
