@@ -13,4 +13,4 @@ FROM Products;
    the condition specified.
    "avg()" function will return the average value of a numerical column.
    "sum()" function will return the total summation of a numerical column.
-*/
+ */
