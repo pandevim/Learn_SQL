@@ -17,6 +17,7 @@ FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
    "INNER JOIN" return record common to both table.
    The above query will both tables "Orders" and "Customers" joint together
    with common "CustomerID" column.
+   But the "CustomerID: column will only be displayed once.
    The "Orders" table will be in left side of the overall display table
    as it sit the table_1.
    So according to syntax we can also specify colums to display.
