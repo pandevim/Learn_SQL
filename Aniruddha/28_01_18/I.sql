@@ -30,3 +30,7 @@ SELECT
    Orders.OrderDate
 FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID
 ORDER BY Orders.OrderID;
+
+/* 
+   Only those rows will be dispalyed who have "CustomerID" not NULL.
+*/
