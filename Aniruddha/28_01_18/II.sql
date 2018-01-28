@@ -15,5 +15,5 @@ FROM Orders LEFT JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 */
 
 /* 
-   Things will change accordingly for "RIGHT JOIN".
+   Things will change accordingly for "RIGHT JOIN" or "RIGHT OUTER JOIN".
 */
