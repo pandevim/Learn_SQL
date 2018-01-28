@@ -1,8 +1,9 @@
-SELECT MIN(Price) AS [Mininum Price],
-       MAX(Price) AS [Maximum Price],
-       COUNT(ProductID) AS [Total ID],
-       AVG(Price) AS [Average Price],
-       SUM(Price) AS [Total Price]
+SELECT 
+   MIN(Price) AS [Mininum Price],
+   MAX(Price) AS [Maximum Price],
+   COUNT(ProductID) AS [Total ID],
+   AVG(Price) AS [Average Price],
+   SUM(Price) AS [Total Price]
 FROM Products;
 
 /* 
