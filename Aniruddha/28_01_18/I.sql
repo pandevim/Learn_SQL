@@ -32,5 +32,13 @@ FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID
 ORDER BY Orders.OrderID;
 
 /* 
-   Only those rows will be dispalyed who have "CustomerID" not NULL.
+   Only those rows will be dispalyed who have "CustomerID" not "NULL".
+   More than two tables can also be joined using "INNER JOIN" clause.
+   Like this query below.
 */
+
+SELECT
+   Orders.OrderID,
+   Customers.CustomerName,
+   Shippers.ShipperName
+FROM (Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID) INNER JOIN Shippers ON Orders.ShipperID=Shippers.ShipperID;
