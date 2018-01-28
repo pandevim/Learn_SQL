@@ -13,3 +13,7 @@ FROM Orders LEFT JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
    The above query will all things present in left_table "Orders"
    even it doesn' exist in right_table "Customers".
 */
+
+/* 
+   Things will change accordingly for "RIGHT JOIN".
+*/
