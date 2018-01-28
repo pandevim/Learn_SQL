@@ -11,15 +11,15 @@ FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
    The syntax is as follows:-
    
    SELECT
-      table.column
-   FROM table_1 INNER JOIN table_2 ON table_1.matched_column=table_2.matched_column;
+      left_table.column
+   FROM left_table INNER JOIN right_table ON left_table.matched_column=right_table.matched_column;
    
    "INNER JOIN" return record common to both table.
    The above query will both tables "Orders" and "Customers" joint together
    with common "CustomerID" column.
    But the "CustomerID: column will only be displayed once.
    The "Orders" table will be in left side of the overall display table
-   as it sit the table_1.
+   as it sit the "left_table".
    So according to syntax we can also specify colums to display.
    Like this below.
 */
