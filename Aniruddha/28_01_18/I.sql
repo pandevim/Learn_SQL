@@ -19,4 +19,12 @@ FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
    with common "CustomerID" column.
    The "Orders" table will be in left side of the overall display table
    as it sit the table_1.
+   So according to syntax we can also specify colums to display.
+   Like this below.
 */
+
+SELECT
+   Orders.OrderID,
+   Customers.CustomerName,
+   Orders.OrderDate
+FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
