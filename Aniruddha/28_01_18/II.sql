@@ -7,7 +7,7 @@
 
 SELECT
    *
-FROM Orders INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+FROM Orders LEFT JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 
 /* 
    The above query will all things present in left_table "Orders"
