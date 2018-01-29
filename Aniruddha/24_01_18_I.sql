@@ -7,10 +7,10 @@ SELECT
 FROM Products;
 
 /* 
-   The "min()" and "max()" fucntion used above will return mininum and maximum
+   The "min()" and "max()" function used above will return mininum and maximum
    numerical/alphabetical value respectively.
    "count()" function will return the total or number of rows that matches
    the condition specified.
    "avg()" function will return the average value of a numerical column.
    "sum()" function will return the total summation of a numerical column.
- */
+*/
