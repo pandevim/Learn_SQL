@@ -24,3 +24,15 @@ ORDER BY A.City;
    Each row in the left_table is paired with all the rows on right_table.
    i.e Produced Result Set = (no. of rows in left_table * no. of rows in right_tables).
 */
+
+SELECT
+   CustomerName,
+   CategoryName
+FROM Customers CROSS JOIN Categories;
+
+--OR
+
+SELECT
+   Customers.CustomerName,
+   Categories.CategoryName
+FROM Customers, Categories;
