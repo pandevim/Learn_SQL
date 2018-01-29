@@ -39,3 +39,18 @@ SELECT
 FROM Orders INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
 GROUP BY LastName
 HAVING COUNT(Orders.OrderID) > 10;
+
+/* 
+   The "ANY" and "ALL" operator commonly used
+   with "WHERE" and "HAVING" clause, both return true
+   if any of the subquery values meet the condition.
+*/
+
+SELECT
+   ProductName 
+FROM Products
+WHERE ProductID = ANY(
+   SELECT ProductID
+      FROM OrderDetails
+   WHERE Quantity = 10
+);
