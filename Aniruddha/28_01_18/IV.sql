@@ -21,6 +21,6 @@ ORDER BY A.City;
 
 /* 
    The "CROSS JOIN" also know as "Cartesian Join" since do Cartesian Product.
-   Each row in the left_table is paired to the right_table.
+   Each row in the left_table is paired with all the rows on right_table.
    i.e Produced Result Set = (no. of rows in left_table * no. of rows in right_tables).
 */
