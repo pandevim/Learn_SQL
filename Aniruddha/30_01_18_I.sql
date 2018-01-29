@@ -54,3 +54,21 @@ WHERE ProductID = ANY(
       FROM OrderDetails
    WHERE Quantity = 10
 );
+
+SELECT
+   ProductName 
+FROM Products
+WHERE ProductID = ALL(
+   SELECT ProductID
+      FROM OrderDetails
+   WHERE Quantity = 10
+);
+
+/* 
+   The above two query will return a table if
+      1.Any one of the column have Quantity=10
+      2.All column have Quantity=10
+   Since all Quantity entries are not "10"
+   second most query will give false or
+   not table will be formed.
+*/
