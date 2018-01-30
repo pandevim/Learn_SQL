@@ -40,3 +40,15 @@ FROM OldTable WHERE 1 = 0;
    One difference of this cluase from "SELECT INTO" is that, "SELECT INTO" will make a table 
    if it is was not present in advance.
 */
+
+INSERT INTO Customers (CustomerName, City, Country)
+SELECT
+   SupplierName,
+   City,
+   Country
+FROM Suppliers;
+
+/* 
+   The above query will insert data from table "Suppliers"
+   to "Customers" at the bottom.
+*/
