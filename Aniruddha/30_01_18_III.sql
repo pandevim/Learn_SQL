@@ -22,5 +22,5 @@ FROM Customers;
 /* 
    Where ".mdb" is a extension for Microsoft Database.
    Other extensions like ".dbf" for oracle database can
-   also be used in accordance to convinience.
+   also be used in accordance to convenience.
 */
