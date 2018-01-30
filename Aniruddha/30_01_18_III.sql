@@ -34,3 +34,9 @@ SELECT
    *
 INTO Customers_BackUp
 FROM OldTable WHERE 1 = 0;
+
+/* 
+   "INSERT INTO SELECT" statement copies data from one table and inserts it into another table.
+   One difference of this cluase from "SELECT INTO" is that, "SELECT INTO" will make a table 
+   if it is was not present in advance.
+*/
