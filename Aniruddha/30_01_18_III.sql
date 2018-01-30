@@ -16,7 +16,7 @@ FROM Customers;
 
 SELECT
    *
-INTO Customers_Backup IN 'Backup.mdb'
+INTO Customers_BackUp IN 'BackUp.mdb'
 FROM Customers;
 
 /* 
@@ -24,3 +24,13 @@ FROM Customers;
    Other extensions like ".dbf" for oracle database can
    also be used in accordance to convenience.
 */
+
+/* 
+   "SELECT INTO" statement can also be used to make a new
+   empty table where the "WHERE" clause will return no data.
+*/
+
+SELECT
+   *
+INTO Customers_BackUp
+FROM OldTable WHERE 1 = 0;
