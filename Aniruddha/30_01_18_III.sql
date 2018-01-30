@@ -18,3 +18,9 @@ SELECT
    *
 INTO Customers_Backup IN 'Backup.mdb'
 FROM Customers;
+
+/* 
+   Where ".mdb" is a extension for Microsoft Database.
+   Other extensions like ".dbf" for oracle database can
+   also be used in accordance to convinience.
+*/
