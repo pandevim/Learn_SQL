@@ -20,6 +20,9 @@
    All employee-related objects in the "employee" schema, etc.
    Furthermore "A Schema is distinct namespace to facilitate the separtation, management and ownership of database objects".
    
+   A database schema is a logical container for data structures, called schema objects.
+   Examples of schema objects are tables, stored procedures and indexes.
+   
    A schema is a namespace - a logical thing.
    It is used to organize the names of database objects.
    It has nothing to do with the way the data is stored.
