@@ -19,4 +19,19 @@
    which leads to ease of setting permissions by schema.
    All employee-related objects in the "employee" schema, etc.
    Furthermore "A Schema is distinct namespace to facilitate the separtation, management and ownership of database objects".
+   
+   A schema is a namespace - a logical thing.
+   It is used to organize the names of database objects.
+   It has nothing to do with the way the data is stored.
+
+   A tablespace is a physical thing.
+   It's a container for data and has nothing to do with the logical organization of the database objects.
+   
+   There is no relationship between schemas and tablespaces:
+   A tablespace can contain objects from different schemas,
+   and the objects for a schema can be contained in different tablespaces.
+   
+   Schema objects are logical data storage structures.
+   Schema objects do not have a one-to-one correspondence to physical files on disk that store their information.
+   However, Oracle stores a schema object logically within a tablespace of the database.
 */
