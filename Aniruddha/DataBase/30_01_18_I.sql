@@ -3,6 +3,9 @@
    it contains the data and log files, and all the schemas within it.
    You always back up a database, it is a discrete unit on its own.
 
+   A database may contain "one or more" tablespaces.
+   A tablespace may contain one or more datafiles.
+
    Database Management System:
    A database management system is a collection of programs written to manage a database.
    That is, it acts as a interface between user and database.
