@@ -34,4 +34,6 @@
    Schema objects are logical data storage structures.
    Schema objects do not have a one-to-one correspondence to physical files on disk that store their information.
    However, Oracle stores a schema object logically within a tablespace of the database.
+   
+   The data stored in database at a particular moment of time is called instance of database.
 */
