@@ -23,3 +23,9 @@ FROM v$database;
 SELECT
    *
 FROM v$instance;
+
+DROP DATABASE DATABASE_NAME;
+
+/* 
+   The immediate above query is used to drop a database.
+*/
