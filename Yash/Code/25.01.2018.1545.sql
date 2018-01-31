@@ -23,7 +23,7 @@ WHERE Country='Mexico'; /*Output: This displays the records of all the data whic
 <=	      Less than or equal
 IN	      To specify multiple possible values for a column
 LIKE	    Search for a pattern
-BETWEEN	  Between an inclusive range */
+BETWEEN	  Between an inclusive range*/
 
 
 
