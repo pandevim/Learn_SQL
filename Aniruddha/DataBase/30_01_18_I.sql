@@ -6,7 +6,7 @@
    Database Management System:
    A database management system is a collection of programs written to manage a database.
    That is, it acts as a interface between user and database.
-   Major (DBMS) are: Hierarchical, Network, Relational, Object-Oriented.
+   Major (DBMS) are: Hierarchical, Flat-File, Network, Relational, Object-Oriented.
    
    Relational Database Management System:
    It is the most popular (DBMS).
