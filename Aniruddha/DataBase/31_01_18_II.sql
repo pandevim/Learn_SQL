@@ -16,4 +16,10 @@
    and you choose the state in which the database starts.
    Normally, you would start up an instance by mounting and opening the database,
    thus making it available for any valid user to connect to and perform typical data access operations.
+   
+   So, Considerations Before Creating a Database are:
+   1.Plan the database.
+   2.Perform "STARTUP" and "SHUTDOWN" operations.
+   3."ALTER DATABASE": OPEN/MODIFY/MOUNT/BACKUP
+   4."CREATE DATABASE".
 */
