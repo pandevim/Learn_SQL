@@ -29,6 +29,6 @@
    2.Creating and initializing the control files and redo log files for the database.
    3.Creating new datafiles or erasing data that existed in previous datafiles.
    
-   Either you can create the database by yourself using quires
-   or otherwise use executing prepared scripts. 
+   Either you can create the database manually by yourself using quires
+   or otherwise use executing prepared scripts or use (DBCA).
 */
