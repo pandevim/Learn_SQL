@@ -20,6 +20,12 @@
    So, Considerations Before Creating a Database are:
    1.Plan the database.
    2.Perform "STARTUP" and "SHUTDOWN" operations.
-   3."ALTER DATABASE": OPEN/MODIFY/MOUNT/BACKUP
+   3."ALTER DATABASE": OPEN/MODIFY/MOUNT/BACKUP.
    4."CREATE DATABASE".
+   
+   Now, Creating a database includes the following operations:
+   1.Creating information structures, including the data dictionary,
+     that Oracle requires to access and use the database.
+   2.Creating and initializing the control files and redo log files for the database.
+   3.Creating new datafiles or erasing data that existed in previous datafiles.
 */
