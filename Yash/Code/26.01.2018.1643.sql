@@ -15,7 +15,7 @@ WHERE Country='Germany' OR Country='Mexico';/*List of all the satisfied records*
 SELECT*FROM Customers
 WHERE NOT Country='Germany'; /*The output is all the data except the records mentioning Germany as the country*/
 
-/*Combining the NOT. AND and OR statements*/
+/*Combining the NOT. AND and OR statements */
 SELECT*FROM Customers
 WHERE Country='Germany' AND (City='Berlin' OR Country='Muchen');/*Output is the data of all the records where Coutry is Germnay and city is either Munchen or Berlin*/
 
