@@ -1,6 +1,5 @@
 /* 
-   Now the below work will required you to be the "Oracle Database Administrator"
-   or you ought to have admin privileges.
+   Now, the further work demands the "Oracle Database Administrator", ought to have admin privileges.
    
    As the database administrator, you must plan:
    1.The logical storage structure of the database
