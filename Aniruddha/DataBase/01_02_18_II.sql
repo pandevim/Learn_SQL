@@ -37,7 +37,7 @@ CREATE TABLE TABLE_NAME(
    REFERENCE Customers (PRIMARY_COLUMN_2)
 );
 
-/* 
+ /* 
    The "REFERENCE" keyword is also known as "Referential Integrity".
    As tables can declarative specify realtionships between tables.
    Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY".
