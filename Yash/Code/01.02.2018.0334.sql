@@ -1,4 +1,4 @@
-/*AND. OR and NOT*/
+/*AND OR and NOT*/
 
 /*AND*/
 SELECT * FROM Customers
