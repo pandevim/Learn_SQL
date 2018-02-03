@@ -1,6 +1,7 @@
 # Learn SQL
 This is a repository for anyone who wants to learn SQL.<br/>
 It's an effort by Yash and Aniruddha to understand and learn "SQL".<br/>
+SQL, is an International Organization for Standardization (ISO)-governed standard language that is used for database programming.<br/>
 You can use all the queries laid down in this tutorial in the <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all">SQL Tryit Editor</a> by <b>W3Schools</b>.<br/><br/>
 ![alt text](https://my.sentryone.com/Images/logos/products/sql.svg)<br/>
 We're using the Northwind sample database provided by https://www.w3schools.com/<br/>
