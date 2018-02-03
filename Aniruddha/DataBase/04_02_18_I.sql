@@ -13,10 +13,12 @@ DROP TABLE TABLE_NAME CASCADE CONSTRAINTS;
    allowing you to drop database tables in any order.
 */
 
+TRUNCATE TABLE TABLE_NAME;
+
 /* 
    The "TRUNCATE TABLE" statement is used to delete the data (i.e all rows)
    inside a table, but not the table itself.
    But it is a DLL command and cannot be rolled back or retrieve through "FLASHBACK"
-   (i.e  non recoverable) and hence faster than "DELETE" command.
+   (i.e  non recoverable) and hence faster than using "DELETE" command to remove all rows.
 */
 
