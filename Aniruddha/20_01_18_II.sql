@@ -43,3 +43,8 @@ SELECT
 FROM Products
 WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni';
 ORDER BY ProductName;
+
+SELECT
+   *
+FROM Orders
+WHERE OrderDate BETWEEN '07/04/1996' AND '07/09/1996';
