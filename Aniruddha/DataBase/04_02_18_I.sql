@@ -13,7 +13,24 @@ DROP TABLE TABLE_NAME CASCADE CONSTRAINTS;
    allowing you to drop database tables in any order.
 */
 
-TRUNCATE TABLE TABLE_NAME;
+SELECT
+   COLUMN_1,
+   COLUMN_2,
+   COLUMN_3
+FROM RECYCLEBIN;
+
+/* 
+   This procedure is Un-Dropping a table data.
+   Since, if the "RECYCLEBIN" parameter is set "ON" (default in 11.2g)
+   the dropped table can be retrieved from "Recycle Bin".
+   One more way is to use "FLASHBACK" clause.
+   Like this example below.
+*/
+
+FLASHBACK TABLE TABLE_NAME TO BEFORE DROP;
+SELECT
+   COUNT(*) TABLE_NAME
+FROM TABLE_NAME;
 
 /* 
    The "TRUNCATE TABLE" statement is used to delete the data (i.e all rows)
@@ -22,3 +39,4 @@ TRUNCATE TABLE TABLE_NAME;
    (i.e  non recoverable) and hence faster than using "DELETE" command to remove all rows.
 */
 
+TRUNCATE TABLE TABLE_NAME;
