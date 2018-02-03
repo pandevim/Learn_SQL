@@ -7,7 +7,8 @@
    A tablespace may contain one or more datafiles.
 
    Database Management System:
-   A database management system is a collection of programs written to manage a database.
+   A database management system is a general purpose software system
+   which is the collection of programs written to manage a database.
    That is, it acts as a interface between user and database.
    Major (DBMS) are: Hierarchical, Flat-File, Network, Relational, Object-Oriented.
    
