@@ -27,5 +27,9 @@ i.e the first letters of the ProductName. Then we have ordered the list generate
 
 SELECT * FROM Orders
 WHERE OrderDate BETWEEN #07/04/1996# AND #07/09/1996#;/* This is how you can specify ranges in between the numerics. Use a #. Will show all the records in this range of orderdates.*/
+ 
+/*In the latest DB managers the # no longer works. The below code is much suitable. Works on all platforms*/ 
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN '07/04/1996' AND '07/09/1996';
 
---Are you the gays?
+--Thanks to Aniruddha Pandey for pointing this mistake out. Credits and smacks to him.
