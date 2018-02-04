@@ -49,7 +49,7 @@ CREATE TABLE TABLE_NAME(
    The "REFERENCE" keyword is also known as "Referential Integrity".
    As tables can declarative specify realtionships between tables.
    The above query will create a "child" table, name "TABLE_NAME" of the table
-   "Customers" by including a foreigh key in the "TABLE_NAME" table that references
+   "Customers" by including a "FOREIGN KEY" in the "TABLE_NAME" table that references
    the "Customers" table.
    "FOREIGN KEY" must reference "PRIMARY KEY" to make "parent" "child" relation in tables.
 */
