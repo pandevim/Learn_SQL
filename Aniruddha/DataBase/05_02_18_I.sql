@@ -8,11 +8,22 @@
 */
 
 INSERT INTO
-   Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
-VALUES ('Aniruddha Pandey','Tody','LPU','Jalandar','144411','India');
+   Customers (CustomerName, Address, City, PostalCode, Country)
+VALUES ('Tody','Lovely','Jalandar','144411','India');
+
+INSERT INTO
+   Customers (CustomerName, Address, City, PostalCode, Country)
+VALUES ('Mody','Prestige','Indore','452010','India');
 
 /* 
-   One row of the table "Customers" is filled.
-   We can see that by respective query.
+   Two row of the table "Customers" is filled.
    This will generate random "CustomerID".
 */
+
+INSERT INTO
+   TABLE_NAME (Name, Job, Salary, CustomerID) 
+VALUES ('Aniruddha Pandey','Jobless', INR 0, (SELECT CustomerID FROM Customers WHERE Name='Tody'));
+
+INSERT INTO
+   TABLE_NAME (Name, Job, Salary, CustomerID) 
+VALUES ('Ayush Pandey','Student', INR 0, (SELECT CustomerID FROM Customers WHERE Name='Mody'));
