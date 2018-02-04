@@ -29,11 +29,7 @@ CREATE TABLE TABLE_NAME(
    Here there is only "PRIMARY KEY" which is "pk_TABLE_NAME" but its value is (COLUMN_1+COLUMN_3).
 */
 
-CREATE TABLE TABLE_NAME AS(
-   SELECT
-      *
-   FROM Customers
-);
+CREATE TABLE TABLE_NAME AS(SELECT * FROM Customers);
 
 /* 
    We can also create table using another table like mentioned above.
