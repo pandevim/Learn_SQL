@@ -23,6 +23,7 @@ CREATE TABLE TABLE_NAME(
    One example is a "NOT NULL" integrity constraint.
    This constraint forces the column to contain a value in every row.
    Also we're going to make that column "PRIMARY KEY", thus it can't be "NULL".
+   Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY".
    The "PRIMARY KEY" constraint uniquely identifies each record in a database table.
    And also a table can have only one "PRIMARY KEY".
    Here we also named the "PRIMARY KEY" constraint "pk_TABLE_NAME".
@@ -47,7 +48,6 @@ CREATE TABLE TABLE_NAME(
 /* 
    The "REFERENCE" keyword is also known as "Referential Integrity".
    As tables can declarative specify realtionships between tables.
-   Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY".
    The above query will create a "child" table, name "TABLE_NAME" of the table
    "Customers" by including a foreigh key in the "TABLE_NAME" table that references
    the "Customers" table.
