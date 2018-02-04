@@ -15,6 +15,7 @@ CREATE TABLE TABLE_NAME(
    These rules are called integrity constraints.
    One example is a "NOT NULL" integrity constraint.
    This constraint forces the column to contain a value in every row.
+   Also we're going to make that column "PRIMARY KEY".
 */
 
 CREATE TABLE TABLE_NAME AS(
