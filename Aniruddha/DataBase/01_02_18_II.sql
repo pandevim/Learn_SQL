@@ -11,8 +11,7 @@ CREATE TABLE TABLE_NAME(
    Here the "WIDTH" defines the maximum quantity of lenght it can hold.
    Or otherwise, the width can be predetermined by the datatype it self, as in "DATE" datatype.
    If columns are of the NUMBER datatype, define precision and scale instead of width.
-   You can specify rules for each column of a table.
-   These rules are called integrity constraints.
+   You can specify rules for each column of a table. These rules are called integrity constraints.
    One example is a "NOT NULL" integrity constraint.
    This constraint forces the column to contain a value in every row.
    Also we're going to make that column "PRIMARY KEY".
