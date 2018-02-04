@@ -8,3 +8,9 @@
 INSERT INTO
    Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES ('Aniruddha Pandey','Tody','LPU','Jalandar','144411','India');
+
+/* 
+   One row of the table "Customers" is filled.
+   We can see that by respective query.
+   This will generate random "CustomerID".
+*/
