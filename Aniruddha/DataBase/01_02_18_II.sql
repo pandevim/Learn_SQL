@@ -2,7 +2,6 @@ CREATE TABLE TABLE_NAME(
    COLUMN_1 DATATYPE NOT NULL PRIMARY KEY,
    COLUMN_2 DATATYPE(WIDTH),
    COLUMN_3 DATATYPE
-   CONSTRAINT pk_TABLE_NAME
 );
 
 --or
@@ -26,6 +25,7 @@ CREATE TABLE TABLE_NAME(
    Also we're going to make that column "PRIMARY KEY", thus it can't be "NULL".
    The "PRIMARY KEY" constraint uniquely identifies each record in a database table.
    And also a table can have only one "PRIMARY KEY" column.
+   Here we also named the "PRIMARY KEY" constraint "pk_TABLE_NAME".
 */
 
 CREATE TABLE TABLE_NAME AS(
