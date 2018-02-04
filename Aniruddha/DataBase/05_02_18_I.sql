@@ -27,3 +27,10 @@ VALUES ('Aniruddha Pandey','Jobless', INR 0, (SELECT CustomerID FROM Customers W
 INSERT INTO
    TABLE_NAME (Name, Job, Salary, CustomerID) 
 VALUES ('Ayush Pandey','Student', INR 0, (SELECT CustomerID FROM Customers WHERE Name='Mody'));
+
+/* 
+   Two row of the table "TABLE_NAME" is filled.
+   This will generate random "TABLE_NAME_ID".
+   Since we had make a "parent" "child" relation in table "Customers" and "TABLE_NAME"
+   we need to put the "CustomerID" and join this coulumn with "TABLE_NAME_ID".
+*/
