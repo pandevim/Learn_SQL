@@ -14,7 +14,9 @@ CREATE TABLE TABLE_NAME(
    You can specify rules for each column of a table. These rules are called integrity constraints.
    One example is a "NOT NULL" integrity constraint.
    This constraint forces the column to contain a value in every row.
-   Also we're going to make that column "PRIMARY KEY".
+   Also we're going to make that column "PRIMARY KEY", thus it can't be "NULL".
+   The "PRIMARY KEY" constraint uniquely identifies each record in a database table.
+   And also a table can have only one "PRIMARY KEY" column.
 */
 
 CREATE TABLE TABLE_NAME AS(
