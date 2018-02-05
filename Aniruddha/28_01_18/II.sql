@@ -23,4 +23,6 @@ FROM Orders, Customers ON Orders.CustomerID=Customers.CustomerID(+);
 
 /* 
    Things will change accordingly for "RIGHT JOIN" or "RIGHT OUTER JOIN".
+   The query "ON Orders.CustomerID=Customers.CustomerID(+)" will change into
+   "ON Orders.CustomerID(+)=Customers.CustomerID".
 */
