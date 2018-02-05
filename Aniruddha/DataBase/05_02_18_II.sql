@@ -24,6 +24,17 @@ ORDER BY table_name, column_name, column_position; --this line is optional
    on "Index", "COLUMN_1" and "COLUMN_3" on "Column" and "1" on both "Position" rows.
 */
 
+CREATE INDEX index_name
+ON TABLE_NAME_2 (COLUMN_3);
+
+/* 
+   Since we know that table "TABLE_NAME_2" will be frequently searched with "Name" column.
+   To improve the performance searches and to ensure uniqueness we can apply the below query.
+*/
+
+CREATE UNIQUE INDEX index_name
+ON TABLE_NAME_2 (Name);
+
 /* 
    Updating a table with indexes takes more time than updating a table without(because the indexes also need an update).
    So, only create indexes on columns that will be frequently searched against.
