@@ -32,5 +32,5 @@ VALUES ('Ayush Pandey','Student', INR 0, (SELECT CustomerID FROM TABLE_NAME_1 WH
    Two row of the table "TABLE_NAME_2" is filled.
    This will generate random "TABLE_NAME_2_ID".
    Since we had make a "parent" "child" relation in table "TABLE_NAME_1" and "TABLE_NAME_2"
-   we need to put the "TABLE_NAME_1_ID" and join this coulumn with "TABLE_NAME_2_ID".
+   we need to put the "TABLE_NAME_1_ID" and maintain links between tables.
 */
