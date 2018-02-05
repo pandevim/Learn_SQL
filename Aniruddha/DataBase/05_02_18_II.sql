@@ -22,3 +22,8 @@ ORDER BY table_name, column_name, column_position; --this line is optional
    With entries "TABLE_NAME_1" and "TABLE_NAME_2" on "Table", "pk_TABLE_NAME_1" and "pk_TABLE_NAME_2"
    on "Index", "COLUMN_1" and "COLUMN_3" on "Column" and "1" on both "Position" rows.
 */
+
+/* 
+   Updating a table with indexes takes more time than updating a table without(because the indexes also need an update).
+   So, only create indexes on columns that will be frequently searched against.
+*/
