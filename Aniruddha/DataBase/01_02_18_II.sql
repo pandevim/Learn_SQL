@@ -49,8 +49,8 @@ CREATE TABLE TABLE_NAME_2(
    The "REFERENCE" keyword is also known as "Referential Integrity".
    As tables can declarative specify realtionships between tables.
    A "FOREIGN KEY" is a key used to link two tables together.
-   It is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
-   The above query will create a "child" table, name "TABLE_NAME_1" of the table
-   "TABLE_NAME_2" by including a "FOREIGN KEY" in the "TABLE_NAME_2" table that references the "TABLE_NAME_1" table.
+   It is a field in one table that refers to the PRIMARY KEY in another table.
+   The above query will create a "child" table, name "TABLE_NAME_2" of "parent" table
+   "TABLE_NAME_1" by including a "FOREIGN KEY" in the "TABLE_NAME_2" table that references the "TABLE_NAME_1" table.
    "FOREIGN KEY" must reference "PRIMARY KEY" to make "parent" "child" relation in tables.
 */
