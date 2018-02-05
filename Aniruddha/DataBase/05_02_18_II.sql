@@ -16,3 +16,9 @@ SELECT
    column_position 'Position'
 FROM  user_ind_columns  WHERE table_name='TABLE_NAME_1' or table_name='TABLE_NAME_2'
 ORDER BY table_name, column_name, column_position; --this line is optional
+
+/* 
+   A table will be created with columns "Table", "Index", "Column", "Position".
+   With entries "TABLE_NAME_1" and "TABLE_NAME_2" on "Table", "pk_TABLE_NAME_1" and "pk_TABLE_NAME_2"
+   on "Index", "COLUMN_1" and "COLUMN_3" on "Column" and "1" on both "Position" rows.
+*/
