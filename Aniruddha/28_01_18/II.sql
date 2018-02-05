@@ -28,6 +28,7 @@ ORDER BY o.OrderDate;
    The above query will all things present in left_table "Orders"
    even it doesn' exist in right_table "Customers".
    Where the first "or" part will also give the same result but is a feature of "Oracle".
+   And the second "or" part will return a"JOIN" table obtained from using "Inline" query for table "Customers".
 */
 
 /* 
