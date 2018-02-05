@@ -26,7 +26,7 @@ CREATE TABLE TABLE_NAME_1(
    Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY".
    The "PRIMARY KEY" constraint uniquely identifies each record in a database table.
    And also a table can have only one "PRIMARY KEY".
-   Here we also named the "PRIMARY KEY" constraint "pk_TABLE_NAME".
+   Here we also named the "PRIMARY KEY" constraint "pk_TABLE_NAME" or called "index", explained in further commits.
    Here there is only "PRIMARY KEY" which is "pk_TABLE_NAME" but its value is (COLUMN_1+COLUMN_3).
 */
 
