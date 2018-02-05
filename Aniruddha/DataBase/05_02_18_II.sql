@@ -6,6 +6,7 @@
    
    When a table is created and a "PRIMARY KEY" is specified
    an index is automatically created to enforce the primary key constraint.
+   Users cannot see the indexes.
    To see the indexes that already exist a predefine "Dictionary Query" can be used like this below.
 */
 
