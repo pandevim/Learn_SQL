@@ -54,4 +54,5 @@ CREATE TABLE TABLE_NAME_2(
    The above query will create a "child" table, name "TABLE_NAME_2" of "parent" table
    "TABLE_NAME_1" by including a "FOREIGN KEY" in the "TABLE_NAME_2" table that references the "TABLE_NAME_1" table.
    "FOREIGN KEY" must reference "PRIMARY KEY" to make "parent" "child" relation in tables.
+   Here "TABLE_NAME_1_COLUMN_1" is the "Candidate Key".
 */
