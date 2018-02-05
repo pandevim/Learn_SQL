@@ -15,10 +15,19 @@ SELECT
    *
 FROM Orders, Customers ON Orders.CustomerID=Customers.CustomerID(+);
 
+--or
+
+SELECT
+   o.OrderDate Name,
+   (SELECT CustomerName FROM Customers c WHERE c.CustomerID=o.CustomerID) Name,
+   o.OrderID
+FROM Orders o
+ORDER BY o.OrderDate;
+
 /* 
    The above query will all things present in left_table "Orders"
    even it doesn' exist in right_table "Customers".
-   Where the "or" part will also give the same result but is a feature of "Oracle".
+   Where the first "or" part will also give the same result but is a feature of "Oracle".
 */
 
 /* 
