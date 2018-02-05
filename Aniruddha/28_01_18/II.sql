@@ -9,9 +9,16 @@ SELECT
    *
 FROM Orders LEFT JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 
+--or
+
+SELECT
+   *
+FROM Orders, Customers ON Orders.CustomerID=Customers.CustomerID(+);
+
 /* 
    The above query will all things present in left_table "Orders"
    even it doesn' exist in right_table "Customers".
+   Where the "or" part will also give the same result but is a feature of "Oracle".
 */
 
 /* 
