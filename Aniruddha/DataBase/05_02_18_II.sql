@@ -24,7 +24,7 @@ ORDER BY table_name, column_name, column_position; --this line is optional
    on "Index", "COLUMN_1" and "COLUMN_3" on "Column" and "1" on both "Position" rows.
 */
 
-CREATE INDEX index_name
+CREATE INDEX INDEX_NAME
 ON TABLE_NAME_2 (COLUMN_3);
 
 /* 
@@ -32,7 +32,7 @@ ON TABLE_NAME_2 (COLUMN_3);
    To improve the performance searches and to ensure uniqueness we can apply the below query.
 */
 
-CREATE UNIQUE INDEX index_name
+CREATE UNIQUE INDEX INDEX_NAME
 ON TABLE_NAME_2 (Name);
 
 /* 
