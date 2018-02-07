@@ -34,7 +34,7 @@ ON TABLE_NAME_2 (COLUMN_3);
 
 CREATE UNIQUE INDEX INDEX_NAME
 ON TABLE_NAME_2 (Name);
-
+ 
 /* 
    Updating a table with indexes takes more time than updating a table without(because the indexes also need an update).
    So, only create indexes on columns that will be frequently searched against.
