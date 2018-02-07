@@ -10,4 +10,7 @@ FROM Customers;-- This will join different columns records to show the output as
 SELECT CustomerName, CONCAT(Address,', ',PostalCode,', ',City,', ',Country) AS Address
 FROM Customers;--For MySQL
 
+SELECT o.OrderID, o.OrderDate, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName="Around the Horn" AND c.CustomerID=o.CustomerID; -- This will first shorten the orders to o and customers to c. This helps in the east call of different tables preseent in the database.
 
