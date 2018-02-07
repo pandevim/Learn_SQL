@@ -20,10 +20,15 @@ CREATE TABLE TABLE_NAME_1(
    Or otherwise, the width can be predetermined by the datatype it self, as in "DATE" datatype.
    If columns are of the NUMBER datatype, define precision and scale instead of width.
    You can specify rules for each column of a table. These rules are called integrity constraints.
-   One example is a "NOT NULL" integrity constraint.
-   This constraint forces the column to contain a value in every row.
+   One example is a "NOT NULL" integrity constraint. This constraint forces the column to contain a value in every row.
+   Constraints are used to limit the type of data that can go into a table.
+   This ensures the accuracy and reliability of the data in the table.
+   If there is any violation between the constraint and the data action, the action is aborted.
+*/ 
+   
+/* 
    Also we're going to make that column "PRIMARY KEY", thus it can't be "NULL".
-   Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY".
+   Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY" and both of them are constraints as well.
    The "PRIMARY KEY" constraint uniquely identifies each record in a database table.
    And also a table can have only one "PRIMARY KEY".
    Here we also named the "PRIMARY KEY" constraint "pk_TABLE_NAME" or called "index", explained in further commits.
