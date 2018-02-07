@@ -9,7 +9,7 @@ CREATE TABLE TABLE_NAME_1(
 CREATE TABLE TABLE_NAME_1(
    COLUMN_1 DATATYPE,
    COLUMN_2 DATATYPE(WIDTH),
-   COLUMN_3 DATATYPE
+   COLUMN_3 DATATYPE UNIQUE
    CONSTRAINT pk_TABLE_NAME_1 PRIMARY KEY (COLUMN_1,COLUMN_3)
 );
 
@@ -24,13 +24,16 @@ CREATE TABLE TABLE_NAME_1(
    Constraints are used to limit the type of data that can go into a table.
    This ensures the accuracy and reliability of the data in the table.
    If there is any violation between the constraint and the data action, the action is aborted.
+
+   Both the "UNIQUE" and "PRIMARY KEY" constraints provide a guarantee for uniqueness for a column or set of columns.
+   i.e all values in a column are different.
 */ 
    
 /* 
    Also we're going to make that column "PRIMARY KEY", thus it can't be "NULL".
    Here "pk" and "fk" are "PRIMARY KEY" and "FOREIGN KEY" and both of them are constraints as well.
    The "PRIMARY KEY" constraint uniquely identifies each record in a database table.
-   And also a table can have only one "PRIMARY KEY".
+   And also a table can have only one "PRIMARY KEY" and automatically has a "UNIQUE" constraint inbuilt.
    Here we also named the "PRIMARY KEY" constraint "pk_TABLE_NAME" or called "index", explained in further commits.
    Here there is only "PRIMARY KEY" which is "pk_TABLE_NAME" but its value is (COLUMN_1+COLUMN_3).
 */
