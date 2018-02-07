@@ -31,7 +31,7 @@ CREATE TABLE TABLE_NAME_1(
 */
 
 CREATE TABLE TABLE_NAME_1 AS(SELECT * FROM Customers);
-
+ 
 /* 
    We can also create table using another table like mentioned above.
    This table will be the exact copy of table "Customers".
