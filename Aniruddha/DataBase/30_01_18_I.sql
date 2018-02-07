@@ -30,7 +30,7 @@
    A schema is a namespace - a logical thing.
    It is used to organize the names of database objects.
    It has nothing to do with the way the data is stored.
-
+ 
    A tablespace is a physical thing.
    It's a container for data and has nothing to do with the logical organization of the database objects.
    
