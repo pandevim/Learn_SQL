@@ -7,4 +7,8 @@ ADD COLUMN_2 DATATYPE(WIDTH);
 
 /* 
    The above query will add a column to the right side of the table.
+   To "delete" a column the below query can be used.
 */
+
+ALTER TABLE TABLE_NAME 
+DROP COLUMN COLUMN_NAME;
