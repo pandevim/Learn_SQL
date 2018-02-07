@@ -16,7 +16,7 @@ CREATE OR REPLACE TRIGGER TABLE_NAME_TRIGGER
       NUMBER X;
 BEGIN
    IF X=0
-      THEN
+      THEN 
          --do something
    END IF;
 END;
