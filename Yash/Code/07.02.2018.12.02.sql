@@ -36,7 +36,7 @@ ORDER BY Orders.OrderID;--This will display the content valid with the right aft
 SELECT Customers.CustomerName, Orders.OrderID
 FROM Customers
 FULL OUTER JOIN Orders ON Customers.CustomerID=Orders.CustomerID
-ORDER BY Customers.CustomerName;--The FULL OUTER JOIN returns all records when there is a match in either left or right table.
+ORDER BY Customers.CustomerName;--The FULL OUTER JOIN returns all records when there is a match in either left or right table
 
 --SELF JOIN
 --Joins table with itself
