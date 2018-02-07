@@ -14,7 +14,7 @@ VALUES ('Tody','Lovely','Jalandar','144411','India');
 INSERT INTO
    TABLE_NAME_1 (CustomerName, Address, City, PostalCode, Country)
 VALUES ('Mody','Prestige','Indore','452010','India');
-
+ 
 /* 
    Two row of the table "Customers" is filled.
    This will generate random "CustomerID".
