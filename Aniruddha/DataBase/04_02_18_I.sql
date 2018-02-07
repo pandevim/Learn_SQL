@@ -18,7 +18,7 @@ SELECT
    COLUMN_2,
    COLUMN_3
 FROM RECYCLEBIN;
-
+ 
 /* 
    This procedure is Un-Dropping a table data.
    Since, if the "RECYCLEBIN" parameter is set "ON" (default in 11.2g)
