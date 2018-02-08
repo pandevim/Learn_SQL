@@ -11,4 +11,6 @@
    6)Privileges and roles each user has been granted.
    7)Auditing information, such as who has accessed or updated various schema objects.
    8)Other general database information like meta data.
+   
+   All the data dictionary tables and views for a given database are stored in that database's "SYSTEM" tablespace.
 */
