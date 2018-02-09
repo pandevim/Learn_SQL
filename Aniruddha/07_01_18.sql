@@ -13,7 +13,7 @@ WHERE Country LIKE 'G%';
 /* 
    The above query will find any value that start with G.
 */
-
+ 
 SELECT
    *
 FROM Customers
