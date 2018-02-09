@@ -14,7 +14,7 @@ VALUES ('Aniruddha Pandey','Tody','LPU','Jalandar','144411','India');
 
 DELETE FROM Customers
 WHERE CustomerID=92;
-
+ 
 /* 
    The above query will delete that extra created row.
    To delete all the record in once we can use the below method.
