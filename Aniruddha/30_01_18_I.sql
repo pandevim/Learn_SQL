@@ -2,7 +2,7 @@
    The "GROUP BY" clause will arrange/aggregate
    similar/identical data in groups.
 */
-
+ 
 SELECT
    COUNT(CustomerID) AS Quantity,
    Country
