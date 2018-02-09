@@ -18,3 +18,8 @@
 SELECT TABLE_NAME, TABLESPACE_NAME, STATUS
 FROM TABLE_NAME_1
 where TABLE_NAME='TABLE_NAME_1';
+
+/* 
+   Here "STATUS" is a clause which I don't understand.
+   ;(
+*/
