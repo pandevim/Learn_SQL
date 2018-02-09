@@ -7,15 +7,15 @@
 ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s2.png)<br/>
 
 ## Add more
-![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s3.png)<br/>
+![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s3.jpg)<br/>
 
 ## More
-![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s4.png)<br/>
+![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s4.jpg)<br/>
 
 ## In the end we get:
-![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s5.png)<br/>
+![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s5.jpg)<br/>
 
 ## Database:
-![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s5.1.png)<br/>
+![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s5.1.jpg)<br/>
 
 Adios!
