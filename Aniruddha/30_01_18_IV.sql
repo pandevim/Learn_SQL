@@ -4,7 +4,7 @@
    Suppose there is a table "Products" which contain many column.
    See example below.
 */
-
+ 
 SELECT
    ProductName AS Name,
    Price AS Total_Price
