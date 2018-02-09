@@ -1,5 +1,5 @@
 /* 
-   "INSERT BY" statement is used to add/insert new row to a table.
+   "INSERT" statement is used to add/insert new row to a table.
    There are two methods.
 */
 
