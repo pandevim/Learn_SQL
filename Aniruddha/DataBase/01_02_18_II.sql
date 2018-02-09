@@ -8,7 +8,7 @@ CREATE TABLE TABLE_NAME_1(
 --or
  
 CREATE TABLE TABLE_NAME_1(
-   COLUMN_1 DATATYPE,
+   COLUMN_1 varchar(WIDTH) DEFAULT 'LUL',
    COLUMN_2 DATATYPE(WIDTH),
    COLUMN_3 DATATYPE UNIQUE
    CONSTRAINT pk_TABLE_NAME_1 PRIMARY KEY (COLUMN_1,COLUMN_3)
@@ -27,6 +27,8 @@ CREATE TABLE TABLE_NAME_1(
    If there is any violation between the constraint and the data action, the action is aborted.
    
    The "CHECK" constraint is used to limit the value range that can be placed in a column.
+   
+   The "DEFAULT" constraint is used to provide a default value for a column.
 
    Both the "UNIQUE" and "PRIMARY KEY" constraints provide a guarantee for uniqueness for a column or set of columns.
    i.e all values in a column are different.
