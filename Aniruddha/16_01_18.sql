@@ -13,7 +13,7 @@ WHERE PostalCode=3012 OR PostalCode=8010 OR PostalCode=1081;
    But this same result can be obtained by using "IN" filter.
    Like this below.
 */
-
+ 
 SELECT
    *
 FROM Customers
