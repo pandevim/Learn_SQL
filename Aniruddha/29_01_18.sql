@@ -2,7 +2,7 @@
    The "UNION" clause used to combine
    the result-set of two or more SELECT statements.
 */
-
+ 
 SELECT CustomerName AS Name
 FROM Customers WHERE Country='Germany'
 UNION
