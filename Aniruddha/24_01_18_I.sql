@@ -1,4 +1,5 @@
 SELECT 
+   COUNT(*) AS [Total],
    MIN(Price) AS [Mininum Price],
    MAX(Price) AS [Maximum Price],
    COUNT(ProductID) AS [Total ID],
