@@ -88,3 +88,15 @@ ADD CHECK (COLUMN_4>=100);
 
 ALTER TABLE TABLE_NAME_1
 DROP CONSTRAINT chk_TABLE_NAME_1;
+
+/* 
+   When the table is already created "DEFAULT" constraint can be used with "ALTER" clause.
+*/
+
+ALTER TABLE TABLE_NAME_1
+MODIFY COLUMN_1 DEFAULT 'LUL';
+
+--and to drop
+
+ALTER TABLE TABLE_NAME_1
+ALTER COLUMN COLUMN_1 DROP DEFAULT;
