@@ -65,3 +65,14 @@ FOREIGN KEY (COLUMN_1) REFERENCES TABLE_NAME_1 (TABLE_NAME_1_COLUMN);
 
 ALTER TABLE TABLE_NAME_2
 DROP CONSTRAINT fk_TABLE_NAME_2;
+
+/* 
+   As the size of the database expand "Compression Data" can be useful in saving disk space and
+   reduce memory use in the buffer cache.
+   It will speed up query execution during reads for both (OLAP) and (OLTP) systems.
+   The "COMPRESS" clause can be initilized with "CREATE" clause on the making of the table
+   furthermore can be enabled on an existing table. In this case data will be compressed only
+   after the execution of the respective statement.
+*/
+
+ALTER TABLE TABLE_NAME_2 COMPRESS FOR OLTP;
