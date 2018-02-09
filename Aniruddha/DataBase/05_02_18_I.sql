@@ -52,7 +52,7 @@ CACHE 10;
    The "CACHE" option specifies how many sequence values will be stored in memory for faster access.
    And to insert a new record the following below query can be used.
 */
-
+ 
 INSERT INTO
    TABLE_NAME_1 (COLUMN_1, CustomerName, City)
 VALUES (seq_TABLE_NAME_1.NEXTVAL,'Tody','Jalandar');
