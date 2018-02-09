@@ -18,4 +18,6 @@
 ## Database:
 ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Yash/Script/s5.1.jpg)<br/>
 
+Moreover, a pdf document is attached within this folder.
+
 Adios!
