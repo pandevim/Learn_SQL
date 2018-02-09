@@ -2,7 +2,7 @@
    A field with "NULL" value doesn't mean empty.
    I just has been left blank during record creation.
 */
-
+ 
 SELECT
    CustomerName,
    ContactName,
