@@ -5,7 +5,7 @@
    as per one's convenience, which exists only
    for the duration of the query. 
 */
-
+ 
 SELECT
    CustomerID as show_ID,CustomerName AS [show Name]
 FROM Customers;
