@@ -2,7 +2,7 @@
    "ROWNUM" clause used in oracle sql versions.
    Is used to fetch limited number/percentage of records from top or bottom. 
 */
-
+ 
 SELECT
    *
 FROM Customers
