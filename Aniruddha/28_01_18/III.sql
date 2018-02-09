@@ -5,4 +5,4 @@
 
 SELECT
    *
-FROM Orders AS od FULL JOIN Customers AS cs ON Od.CustomerID=Cs.CustomerID;
+FROM Orders AS od FULL JOIN Customers AS cs ON od.CustomerID=cs.CustomerID;
