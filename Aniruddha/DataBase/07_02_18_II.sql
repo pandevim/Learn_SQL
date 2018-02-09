@@ -14,7 +14,7 @@
    
    All the data dictionary tables and views for a given database are stored in that database's "SYSTEM" tablespace.
 */
-
+ 
 SELECT TABLE_NAME, TABLESPACE_NAME, STATUS
 FROM TABLE_NAME_1
 where TABLE_NAME='TABLE_NAME_1';
