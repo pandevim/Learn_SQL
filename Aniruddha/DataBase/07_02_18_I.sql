@@ -76,3 +76,15 @@ DROP CONSTRAINT fk_TABLE_NAME_2;
 */
 
 ALTER TABLE TABLE_NAME_2 COMPRESS FOR OLTP;
+
+/* 
+   When the table is already created "CHECK" constraint can be used with "ALTER" clause.
+*/
+
+ALTER TABLE TABLE_NAME_1
+ADD CHECK (COLUMN_4>=100);
+
+--and to drop the constraint
+
+ALTER TABLE TABLE_NAME_1
+DROP CONSTRAINT chk_TABLE_NAME_1;
