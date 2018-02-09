@@ -34,3 +34,29 @@ VALUES ('Ayush Pandey','Student', INR 0, (SELECT TABLE_NAME_1_ID FROM TABLE_NAME
    Since we had make a "parent" "child" relation in table "TABLE_NAME_1" and "TABLE_NAME_2"
    we need to put the "TABLE_NAME_1_ID" and maintain links between tables.
 */
+
+/* 
+   When the "Auto-Increament" column is set which is the "Primary Key" by default.
+   Like this below.
+*/
+
+CREATE SEQUENCE seq_TABLE_NAME_1
+MINVALUE 1
+START WITH 1
+INCREMENT BY 1
+CACHE 10;
+
+/* 
+   The code above creates a sequence object called "seq_TABLE_NAME_1", that starts with 1 and will increment by 1.
+   It will also cache up to 10 values for performance.
+   The "CACHE" option specifies how many sequence values will be stored in memory for faster access.
+   And to insert a new record the following below query can be used.
+*/
+
+INSERT INTO
+   TABLE_NAME_1 (COLUMN_1, CustomerName, City)
+VALUES (seq_TABLE_NAME_1.NEXTVAL,'Tody','Jalandar');
+
+/* 
+   the "NEXTVAL" function retrieves the next value from seq_TABLE_NAME_1 sequence.
+*/
