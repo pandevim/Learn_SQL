@@ -1,7 +1,8 @@
 CREATE TABLE TABLE_NAME_1(
    COLUMN_1 DATATYPE NOT NULL PRIMARY KEY,
    COLUMN_2 DATATYPE(WIDTH),
-   COLUMN_3 DATATYPE NOT NULL
+   COLUMN_3 DATATYPE NOT NULL,
+   COLUMN_4 INT CHECK (COLUMN_4>=100)
 );
 
 --or
@@ -24,6 +25,8 @@ CREATE TABLE TABLE_NAME_1(
    Constraints are used to limit the type of data that can go into a table.
    This ensures the accuracy and reliability of the data in the table.
    If there is any violation between the constraint and the data action, the action is aborted.
+   
+   The "CHECK" constraint is used to limit the value range that can be placed in a column.
 
    Both the "UNIQUE" and "PRIMARY KEY" constraints provide a guarantee for uniqueness for a column or set of columns.
    i.e all values in a column are different.
