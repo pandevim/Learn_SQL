@@ -2,7 +2,7 @@
    "ORDER BY" statement will sort any kind of data
    in ascending/descending order. 
 */
-
+ 
 SELECT
    *
 FROM Customers
