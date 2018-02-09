@@ -30,7 +30,7 @@ ORDER BY o.OrderDate;
    Where the first "or" part will also give the same result but is a feature of "Oracle".
    And the second "or" part will return a"JOIN" table obtained from using "Inline" query for table "Customers".
 */
-
+ 
 /* 
    Things will change accordingly for "RIGHT JOIN" or "RIGHT OUTER JOIN".
    The query "ON Orders.CustomerID=Customers.CustomerID(+)" will change into
