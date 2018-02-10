@@ -127,3 +127,4 @@ values('Linux', to_date('01-01-1991','dd-mm-yyyy'), 'Software is like sex, its b
 ```
 </br>And this is how the table would apprear.</br>
 The "Isro" is not executed as <b>Hindi</b> numberics doesn't come under <b>UTF-8</b>.</br>
+![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Aniruddha/Script/script.PNG)
