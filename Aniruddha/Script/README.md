@@ -125,3 +125,5 @@ values('Bose Corporation', to_date('01-01-1964','dd-mm-yyyy'), 'Better Sound Thr
 insert into SLOGANS (Company_Name, Founded_Date, Company_Slogan)
 values('Linux', to_date('01-01-1991','dd-mm-yyyy'), 'Software is like sex, its better when its free');
 ```
+</br>And this is how the table would apprear.</br>
+The "Isro" is not executed as <b>Hindi</b> numberics doesn't come under <b>UTF-8</b>.</br>
