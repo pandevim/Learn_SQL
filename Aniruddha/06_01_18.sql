@@ -1,5 +1,5 @@
 /* 
-   The "LIKE" operator used with "WHERE".
+   The "LIKE" operator is used with "WHERE".
    Used to find pattern in a column.
 */
  
