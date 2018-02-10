@@ -24,6 +24,6 @@ WHERE Country<'Germany';
 
 /* 
    This will show the countries which have their first alphapbet lower, than the first alphabet of "Germany" that is "G",
-   in alpabetical order.
+   in alpabetical order
 */
 
