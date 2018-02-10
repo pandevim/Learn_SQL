@@ -4,7 +4,8 @@ So, here is the link to the <a href="https://livesql.oracle.com/apex/livesql/fil
 Its <i>Public</i> for now, so you can have a look but for running this in <b>Live SQL</b> Server you ought to have a accout.</br>
 Cheers!!</br></br>
 I will also include a raw version down here.</br>
-` --"primary key" here is not necessary as I'm only creating one table.
+``` 
+--"primary key" here is not necessary as I'm only creating one table.
 
 create table SLOGANS (
     Company_No number(*,0) generated always as identity(start with 1 increment by 1),
@@ -122,4 +123,5 @@ insert into SLOGANS (Company_Name, Founded_Date, Company_Slogan)
 values('Bose Corporation', to_date('01-01-1964','dd-mm-yyyy'), 'Better Sound Through Research');
 
 insert into SLOGANS (Company_Name, Founded_Date, Company_Slogan)
-values('Linux', to_date('01-01-1991','dd-mm-yyyy'), 'Software is like sex, its better when its free');`
+values('Linux', to_date('01-01-1991','dd-mm-yyyy'), 'Software is like sex, its better when its free');
+```
