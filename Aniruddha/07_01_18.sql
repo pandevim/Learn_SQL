@@ -11,7 +11,7 @@ FROM Customers
 WHERE Country LIKE 'G%';
 
 /* 
-   The above query will find any value that start with G.
+   The above query will find any value that starts with G.
 */
  
 SELECT
@@ -20,7 +20,7 @@ FROM Customers
 WHERE Country LIKE '%G';
 
 /* 
-   The above query will find any value that end with G.
+   The above query will find any value that ends with G.
 */
 
 SELECT
@@ -38,7 +38,7 @@ FROM Customers
 WHERE Country LIKE 'g_%_%';
 
 /* 
-   The above query will find any value that start with g and have atleast 3 charater.
+   The above query will find any value that starts with G and have atleast 3 character.
 */
 
 SELECT
@@ -47,7 +47,7 @@ FROM Customers
 WHERE Country LIKE '_g%y';
 
 /* 
-   The above query will find any value whose second charater starts with g and end with y.
+   The above query will find any value whose second charater starts with g and end with y. Gay?
 */
 
 SELECT
@@ -56,7 +56,7 @@ FROM Customers
 WHERE Country LIKE 'g_____y';
 
 /* 
-   The above query will find any value that start with g and have exatly 7 charater in total.
+   The above query will find any value that start with g and have exatly 7 characters in total.
 */
 
 SELECT
@@ -80,7 +80,7 @@ FROM Customers
 WHERE Country LIKE 'c%' OR Country LIKE 'a%' OR Country LIKE 't%';
 
 /* 
-   The above query will find all value that start with c along with a and with t, all at the same time.
+   The above query will find all values that start with c along with a and with t, all at the same time.
    but this line of query is quiet tedious to write so we often use [].
    like this query below!
 */
@@ -107,7 +107,7 @@ WHERE Country LIKE '[c-t]%';
 */
 
 /* 
-   The "!" operator can be repalce with using "NOT" query before "LIKE".
+   The "!" operator can be repalced with using "NOT" query before "LIKE".
    like this one below.
 */
 
@@ -117,8 +117,8 @@ FROM Customers
 WHERE Country NOT LIKE '[cat]%';
 
 /* 
-   The above query where the output will give all countries other than those who start with "c","a" or "t".
-   we can also use ! operator like this below.
+   The above query where the output will give all countries other than those which start with "c","a" or "t".
+   we can also use '!' operator, like this below.
 */
 
 SELECT
