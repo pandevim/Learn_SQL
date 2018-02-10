@@ -4,7 +4,7 @@ So, here is the link to the <a href="https://livesql.oracle.com/apex/livesql/fil
 Its <i>Public</i> for now, so you can have a look but for running this in <b>Live SQL</b> Server you ought to have a accout.</br>
 Cheers!!</br></br>
 I will also include a raw version down here.</br>
-``` 
+```sql
 --"primary key" here is not necessary as I'm only creating one table.
 
 create table SLOGANS (
