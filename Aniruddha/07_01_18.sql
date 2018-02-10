@@ -47,7 +47,7 @@ FROM Customers
 WHERE Country LIKE '_g%y';
 
 /* 
-   The above query will find any value whose second charater starts with g and end with y. Gay?
+   The above query will find any value whose second charater starts with g and end with y.
 */
 
 SELECT
@@ -91,7 +91,7 @@ FROM Customers
 WHERE Country LIKE '[cat]%';
 
 /* 
-   Remember there is no , or _ in between.
+   Remember there is no , or "_" in between.
    And thus this will perform the same way as the latter.
 */
 
@@ -118,7 +118,7 @@ WHERE Country NOT LIKE '[cat]%';
 
 /* 
    The above query where the output will give all countries other than those which start with "c","a" or "t".
-   we can also use '!' operator, like this below.
+   we can also use "!" operator, like this below.
 */
 
 SELECT
