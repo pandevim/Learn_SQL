@@ -1,6 +1,6 @@
 # Learn SQL
 This is a repository for anyone who wants to learn SQL.<br/>
-It's an effort by <a href="https://github.com/yashpathack">Yash</a> and <a href="https://github.com/yashpathack">Aniruddha</a> to understand and learn "SQL".<br/>
+It's an effort by <a href="https://github.com/yashpathack">Yash</a> and <a href="https://github.com/yashpathack">Aniruddha</a> to understand and learn <b>"SQL"</b>.<br/>
 SQL, is an International Organization for Standardization (ISO)-governed standard language that is used for database programming.<br/>
 You can use all the queries laid down in this tutorial in the <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all">SQL Tryit Editor</a> by <b>W3Schools</b>.<br/><br/>
 ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Resources/Logo.svg)<br/>
