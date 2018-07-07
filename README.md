@@ -12,4 +12,4 @@ After the Introduction of DataBase it is adviced to use either <b>Live SQL</b> o
 The below picture is <i>one</i> of the table of database, the "Customer" table. There are many more tables available.<br/>
 ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Resources/1.png)<br/><br/>
 ![alt text](https://github.com/aniruddha0pandey/Learn_SQL/blob/master/Resources/2.png)<br/><br/> 
-No copyright infringement intended.
+No copyright infringement intended and will be rectified to all parties satisfaction.
