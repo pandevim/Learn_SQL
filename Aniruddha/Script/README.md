@@ -45,7 +45,7 @@ create table SLOGANS (
 */
 
 
- insert into SLOGANS values('3M', to_date('13-06-1902','dd-mm-yyyy'), 'Innovation');
+insert into SLOGANS values('3M', to_date('13-06-1902','dd-mm-yyyy'), 'Innovation');
 
 insert into SLOGANS values('Adobe', to_date('01-12-1982','dd-mm-yyyy'), 'Better by Adobe');
 
