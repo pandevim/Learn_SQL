@@ -1,0 +1,7 @@
+DECLARE
+    A NUMBER := 10;
+    B NUMBER := 5;
+    
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(A ** B);
+END;
