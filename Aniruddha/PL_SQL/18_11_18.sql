@@ -5,3 +5,5 @@ DECLARE
 BEGIN
     DBMS_OUTPUT.PUT_LINE(A ** B);
 END;
+
+/
